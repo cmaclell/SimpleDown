@@ -1,0 +1,186 @@
+/*** Fonts! ***/
+@import url('http://fonts.googleapis.com/css?family=Shanti');
+@import url('http://fonts.googleapis.com/css?family=Droid+Serif');
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+
+/* Global */
+body {
+  background: #efefef;
+  color: #333;
+  font: normal 15px/26px "Droid Serif", "Bookman Old Style", Times, serif;
+}
+a {
+  color: #00a;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  margin: 15px 0;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Shanti", Helvetica, sans-serif;
+  margin: 0.4em 0;
+}
+
+/* Layout */
+.wrap {
+  width: 600px;
+  margin: 0 auto;
+  position:relative;
+}
+header {
+  display: block;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+#sitename {
+  font: bold 40px/80px Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+#sitename a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+/* Navigation */
+nav#mainmenu {
+  display: block;
+  text-align: center;
+}
+nav#mainmenu ul {
+  list-style: none;
+  margin: 0;
+}
+nav#mainmenu li {
+  display: inline;
+}
+nav#mainmenu a {
+  color: #666;
+  text-decoration: none;
+  padding: 0 25px;
+  height: 40px;
+  font: normal 18px/40px Helvetica, Arial, sans-serif;
+  display: inline-block;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+}
+nav#mainmenu a:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
+nav#mainmenu a.current {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Miscellaneous */
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+img.alignleft {
+  margin-right: 10px;
+}
+img.alignright {
+  margin-left: 10px;
+}
+
+#dsq-content ul a {
+  background: transparent;
+}
+
+
+/* Blog Posts */
+.post {
+  clear: both;
+  margin-bottom: 20px;
+}
+.post .post-meta {
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  margin: 0 0 10px 0;
+}
+.post .post-meta h1 {
+  font: bold 30px/40px "Shanti", Helvetica, sans-serif;
+  margin: 0;
+}
+.post.single .post-meta h1 {
+  font: bold 40px/50px "Shanti", Helvetica, sans-serif;
+}
+.post .post-meta .date {
+  font: normal 15px/20px Helvetica, Arial, sans-serif;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.read-more-link {
+  opacity: 0;
+  text-align: right;
+}
+.post:hover .read-more-link {
+  opacity: 1;
+}
+
+/* Pagination
+div.pagination {
+  padding: 3px;
+  margin: 3px;
+  text-align:center;
+  font-family:Tahoma,Helvetica,sans-serif;
+  font-size:.85em;
+}
+
+div.pagination a {
+  border: 1px solid #ccdbe4;
+  margin-right:3px;
+  padding:2px 8px;
+  background-position:bottom;
+  text-decoration: none;
+  color: #0061de;		
+}
+div.pagination a:hover, div.pagination a:active {
+  border: 1px solid #2b55af;
+  background-image:none;
+  background-color:#3666d4;
+  color: #fff;
+}
+div.pagination span.current {
+  margin-right:3px;
+  padding:2px 6px;
+  font-weight: bold;
+  color: #000;
+}
+div.pagination span.disabled {
+  display:none;
+}
+div.pagination a.next{
+  border:2px solid #ccdbe4;
+  margin:0 0 0 10px;
+}
+div.pagination a.next:hover{
+  border:2px solid #2b55af;
+}
+div.pagination a.prev{
+  border:2px solid #ccdbe4;
+  margin:0 10px 0 0;
+}
+div.pagination a.prev:hover{
+  border:2px solid #2b55af;
+}
+*/
