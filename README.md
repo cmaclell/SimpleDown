@@ -4,6 +4,10 @@ SimpleDown is a flat-file, markdown-based blog engine build in PHP. SimpleDown's
 
 **SimpleDown is far from finished**; there are still many things that need to change for it to be production-ready. Those issues can be found in [the Wiki](https://github.com/alexblackie/SimpleDown/wiki/TODO).
 
+## Installing
+
+Installing documentation is on [the wiki](https://github.com/alexblackie/SimpleDown/wiki/Installing).
+
 ## Features
 *  **Simple** - SimpleDown is powered entirely from a directory of Markdown files. Simply upload your post and you're done.
 *  **Fast** - Because we don't rely on a database, SimpleDown is much faster than a database-heavy application.
