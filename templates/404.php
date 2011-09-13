@@ -23,8 +23,7 @@
             <li><strong>The URL never existed.</strong> It was all just a dream&hellip;</li>
             <li><strong>The URL was deleted.</strong> Maybe I threw it out during spring cleaning&hellip;</li>
           </ul>
-          <p>No matter what the reason, if you could <a href="/contact">get in touch</a> and tell me where you were trying to go, and I'll try to help as best as I can.</p>
-          <p>Or, <a href="/">go to the homepage</a>.</p>
+          <p>Maybe try <a href="/">going to the homepage</a> and see if you can find what you're looking for.</p>
         </div>
       </article>    
     </div><!-- .wrap -->
