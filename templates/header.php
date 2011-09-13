@@ -15,6 +15,7 @@
         <nav id="mainmenu">
           <ul>
             <li><a <?php if($url[0] == "index"): ?>class="current" <?php endif;?>href="<?php echo __SITEPATH__; ?>/">Blog</a></li>
+            <li><a <?php if($url[0] == "about"): ?>class="current" <?php endif;?>href="<?php echo __SITEPATH__; ?>/about">About</a></li>
           </ul>
         </nav>
       </header>
