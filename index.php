@@ -4,8 +4,10 @@
  * This is where the magic happens. 
  */
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+/* Uncomment in development
+  error_reporting(E_ALL);
+  ini_set('display_errors', 1);
+*/
 
 // Include the Markdown Converter
 include_once "app/markdown.php";
@@ -60,7 +62,7 @@ if($url[0] == "index"){
     $articles = array_reverse($articles, true);
      
 
-   foreach($articles as $post){
+    foreach($articles as $post){
       $post_slug = substr($post, 5);
       $post_slug = substr($post_slug, 0, -3);
 ?>
