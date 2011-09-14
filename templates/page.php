@@ -1,5 +1,5 @@
 <?php require 'header.php'; ?>
-      <article class="post page">
+      <article class="post single page">
         <div class="post-meta">
           <?php post_data('title'); ?>
         </div>

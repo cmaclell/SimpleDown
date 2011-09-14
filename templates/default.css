@@ -19,10 +19,10 @@ body {
 }
 a {
   color: #00a;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
+
 }
 p {
   margin: 15px 0;
@@ -36,7 +36,11 @@ h1, h2, h3, h4, h5 {
 .wrap {
   width: 600px;
   margin: 0 auto;
-  position:relative;
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 header {
   display: block;
@@ -49,6 +53,10 @@ header {
 }
 #sitename a {
   color: #aaa;
+  text-decoration: none;
+}
+#sitename a:hover {
+  color: #333;
   text-decoration: none;
 }
 
@@ -78,7 +86,7 @@ nav#mainmenu a {
   border-radius: 20px;
 }
 nav#mainmenu a:hover {
-  background-color: #fff;
+  background-color: #efefef;
   color: #000;
   text-decoration: none;
 }
