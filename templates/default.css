@@ -37,10 +37,6 @@ h1, h2, h3, h4, h5 {
   width: 600px;
   margin: 0 auto;
   position: relative;
-  background: #fff;
-  padding: 20px;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
 }
 header {
   display: block;
@@ -58,6 +54,15 @@ header {
 #sitename a:hover {
   color: #333;
   text-decoration: none;
+}
+#content {
+  background: #fff;
+  padding: 20px;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Navigation */
@@ -86,7 +91,7 @@ nav#mainmenu a {
   border-radius: 20px;
 }
 nav#mainmenu a:hover {
-  background-color: #efefef;
+  background-color: #fff;
   color: #000;
   text-decoration: none;
 }
