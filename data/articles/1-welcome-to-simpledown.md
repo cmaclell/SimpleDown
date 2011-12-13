@@ -1,7 +1,7 @@
 # Welcome to SimpleDown!
 # Date: September 12, 2011
 
-Thanks for giving us a test. We really appreciate your interest. Here's an example Blog Post to get you familar with SimpleDown, and act as an example to how your blog posts should be formatted.
+Thanks for giving us a test. We really appreciate your interest. Here's an example Blog Post to get you familiar with SimpleDown, and act as an example to how your blog posts should be formatted.
 
 As you can see, every blog post is just simply Markdown. After the top two lines of the Markdown file (if you haven't found it yet, look under `data/articles/`), just write.
 
