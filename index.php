@@ -43,7 +43,7 @@ if($url[0] == "index"){
     } elseif($what == "title"){
       print Markdown($convert[0]);
     } elseif($what == "date"){
-        print substr($convert[1], 8);
+      print substr($convert[1], 8);
     } elseif($what == "content") {
       for ($i=3;$i<count($convert);$i++) {
         print Markdown($convert[$i]);
